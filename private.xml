@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<root>
+<item>
+    <name>Map VIM Cursor Movement to Arrow Keys</name>
+    <appendix>Use Control+H/J/K/L to Input Up/Down/Left/Right</appendix>
+    <identifier>VIMCtrlFJDown</identifier>
+    <autogen>
+        __KeyToKey__
+        KeyCode::J, ModifierFlag::CONTROL_L,
+        KeyCode::CURSOR_DOWN
+    </autogen>
+    <autogen>
+        __KeyToKey__
+        KeyCode::J, ModifierFlag::CONTROL_R,
+        KeyCode::CURSOR_DOWN
+    </autogen>
+    <autogen>
+        __KeyToKey__
+        KeyCode::H, ModifierFlag::CONTROL_L,
+        KeyCode::CURSOR_LEFT
+    </autogen>
+    <autogen>
+        __KeyToKey__
+        KeyCode::H, ModifierFlag::CONTROL_R,
+        KeyCode::CURSOR_LEFT
+    </autogen>
+    <autogen>
+        __KeyToKey__
+        KeyCode::K, ModifierFlag::CONTROL_L,
+        KeyCode::CURSOR_UP
+    </autogen>
+    <autogen>
+        __KeyToKey__
+        KeyCode::K, ModifierFlag::CONTROL_R,
+        KeyCode::CURSOR_UP
+    </autogen>
+    <autogen>
+        __KeyToKey__
+        KeyCode::L, ModifierFlag::CONTROL_L,
+        KeyCode::CURSOR_RIGHT
+    </autogen>
+    <autogen>
+        __KeyToKey__
+        KeyCode::L, ModifierFlag::CONTROL_R,
+        KeyCode::CURSOR_RIGHT
+    </autogen>
+</item>
+</root>
