@@ -1,11 +1,15 @@
-! orig
-!keycode  37 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
-!keycode  66 = Control_L NoSymbol Control_L
+! for some reason this approach only works if I'm inside tmux.
+! I'd love to know why, but I can't figure it out.  That and I'm
+! generally ALWAYS inside tmux
 
 ! new working for Asus UX305CA with Ubuntu Mate 16.04
 keycode  37 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
 keycode  66 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
 
-! new test
-!keycode  37 = Control_L NoSymbol Control_L
-!keycode  66 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
+!  The following lines should be added the the end of the 'basic' section
+!  of /usr/share/X11/xkb/symbols/us
+!	//hjkl
+!    key <AC06> {        [         h, H, Left            ]       };
+!    key <AC07> {        [         j, J, Down            ]       };
+!    key <AC08> {        [         k, K, Up              ]       };
+!    key <AC09> {        [         l, L, Right           ]       };
