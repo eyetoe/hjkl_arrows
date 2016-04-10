@@ -1,0 +1,11 @@
+! orig
+!keycode  37 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
+!keycode  66 = Control_L NoSymbol Control_L
+
+! new working for Asus UX305CA with Ubuntu Mate 16.04
+keycode  37 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
+keycode  66 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
+
+! new test
+!keycode  37 = Control_L NoSymbol Control_L
+!keycode  66 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
